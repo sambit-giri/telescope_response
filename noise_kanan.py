@@ -1,6 +1,7 @@
 import numpy as np
 import c2raytools as c2t
-from telescope_functions import *
+#from telescope_functions import *
+from Ctelescope import *
 
 def kelvin_jansky_conversion(ncells, z, boxsize=None):
 	if not boxsize: boxsize = c2t.conv.LB
